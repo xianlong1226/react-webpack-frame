@@ -1,0 +1,70 @@
+.main {
+  margin: 50px auto;
+  padding: 10px 0;
+  width: 1000px;
+  overflow: hidden;
+}
+.footer {
+  height: 50px;
+  width: 100%;
+  background: #222;
+  color: #fafafa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.right {
+  float: left;
+  width: 70%;
+}
+.right h1,
+.right h2 {
+  margin: 30px 0 10px 0;
+}
+.left {
+  float: left;
+  width: 30%;
+}
+.left .items {
+  margin: 0px 10px 0px 30px;
+}
+.left .items .section {
+  padding: 10px 0;
+}
+.left .items .section h3 {
+  color: #2d2d2d;
+  font-weight: 900;
+}
+.left .items .section ul li {
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.left .items .section ul li:hover {
+  color: #cc7a6f;
+}
+.left .items .section ul li.on {
+  color: #cc7a6f;
+}
+.header {
+  height: 50px;
+  width: 100%;
+  background: #222;
+  color: #fafafa;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+body {
+  background: #ccc url(/2f8af7254d6322f6ca5eb3a0889a6eaa.jpg);
+}
+
+/*# sourceMappingURL=index.20419e02e2c50ee744ce55485780e292.bundle.css.map*/
