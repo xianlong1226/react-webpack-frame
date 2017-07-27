@@ -99,10 +99,10 @@ entries.forEach(function (entry) {
 
 });
 
-// config.plugins.push(new webpack.optimize.CommonsChunkPlugin({
-//     name: 'common',
-//     minChunks: 2, //只要有两个以上的模块包含同样的模块就提取到公共js中
-//     chunks: chunknames
-// }));
+config.plugins.push(new webpack.optimize.CommonsChunkPlugin({
+    name: 'common',
+    minChunks: 2, //只要有两个以上的模块包含同样的模块就提取到公共js中
+    chunks: chunknames
+}));
 
 module.exports = config;
