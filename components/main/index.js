@@ -6,8 +6,8 @@ let Footer = require('components/footer');
 require('./style.less');
 
 class Main extends React.Component{
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
     }
     
     render(){
